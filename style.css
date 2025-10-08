@@ -850,6 +850,16 @@ hr {
   }
 }
 
+@media (max-width: 1164px) {
+   #know-further {
+     width: 328px;
+   }
+
+   #calculate-price {
+       width: 328px;
+   }
+}
+
 @media (max-width: 1100px) {
   .navigation a {
     display: none;
@@ -920,9 +930,6 @@ hr {
 }
 
 @media (max-width: 650px) {
-  .team-div {
-    flex-direction: column;
-  }
 
   .all-details {
     flex-direction: column;
@@ -973,6 +980,10 @@ hr {
 @media (max-width: 490px) {
   iframe {
     width: 350px;
+  }
+
+  .team-div {
+    overflow: auto;
   }
 }
 
@@ -1055,14 +1066,6 @@ hr {
 
   .buttons {
     flex-direction: column;
-  }
-
-  #know-further {
-    width: 328px;
-  }
-
-  #calculate-price {
-    width: 328px;
   }
 
   .rectangle {

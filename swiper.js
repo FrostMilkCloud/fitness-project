@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     breakpoints: {
       0: {
-        slidesPerView: 1.2,
+        slidesPerView: 2,
         slidesPerGroup: 1,
         centeredSlides: true,
         grid: { rows: 1 },
